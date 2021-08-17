@@ -3,9 +3,6 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) throws IOException{
-
-        //In order for the program to print out the result you need to press Enter twice!
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Input here: ");
 
