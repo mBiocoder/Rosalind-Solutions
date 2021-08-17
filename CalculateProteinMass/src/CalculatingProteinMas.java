@@ -20,9 +20,6 @@
                 mass += weights[index];
             }
 
-            //add mass of water?
-            //mass += 18.01056;
-
             mass = (double)Math.round(mass * 1000d) / 1000d; //round to 3 decimal places for rosalind to accept
             System.out.println("The protein mass is: " + mass);
         }
