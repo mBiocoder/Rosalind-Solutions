@@ -2,21 +2,17 @@ package bioinformatik;
 
 import java.util.Scanner;
 
-//Was tut der Code?
-//Bei Eingabe eines Strings wir die Anzahl an Adenin, Thymin, Cytosin, Guanin ausgegeben.
-
 public class NucleotideCount {
 
     public static void main(String[] args) {
 
-        // Input the DNA string;
         System.out.println("Please input the DNA string:");
         Scanner input = new Scanner(System.in);
         System.out.print("Sequenz: ");
         String sequence = input.next();
         input.close();
 
-        //Lokale Variablen
+     
         int counterA = 0;
         int counterT = 0;
         int counterC = 0;
@@ -41,8 +37,7 @@ public class NucleotideCount {
         }catch (IndexOutOfBoundsException e){
             e.getMessage();
         }
-        System.out.println( "Folgende Basen kommen vor: " + " " + counterA +" "+ counterT + " " +counterC + " "+ counterG);
-
+        
     }
 
 }
